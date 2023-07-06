@@ -10,20 +10,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"></head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"></head>
   <body>
     <div>
        
-            <div id="top">
-                <img src="logo.png" alt="logo" id="logo">
-                <div class="about">
+            <div class="top">
+                <img src="/images/logo.png" alt="logo" class="logo floatleft">
+                <div class="about floatleft">
                 <h1> Salam M. Tamimi</h1> <br>
                 <p>An architect and passionate job seeker with strong organizational skills. <br>On my way to be a full-stack web developer.</p>
                 </div>
-            <img src="profile.png" alt="profile image" style="padding-right: 200px;"  id="profilepic">
+            <img src="/images/profile.png" alt="profile image" class="floatright" id="profilepic">
             </div>
 
         <nav>
@@ -31,32 +31,35 @@
             <a href="#experience" class="button">Experience</a>
             <a href="#skills" class="button">Skills</a>
             <a href="#certificates" class="button">Certificates</a>
-            <a href="#Contact me / References" class="button">Contact me / References</a>
+            <a href="#Contactme" class="button">Contact me / References</a>
         </nav>
         <br> <br> 
 
-        <div class="container">
-            <div class="grey full" id="Education">
+        <!-- <div class="container"> -->
+            <div class="grey" id="education">
                 <h2>Education</h2> <br>
-                <p class="three floatleft">Bachelor degree in Architecture, 2022, Jordan University of <br>Science and Technology, with an average of <br>very good+ (3.26 gpa)</p>
+                <p>Bachelor degree in Architecture, 2022, Jordan University of <br>Science and Technology, with an average of <br>very good+ (3.26 gpa)</p>
                 
-                    <a href="https://issuu.com/sm980434/docs/portfolio-salam.tamimi_2" target="_blank" class="three2 floatright"><img src="My architectural portfolio.png" alt="My architectural portfolio"  style="width: 150px; margin-right: 300px;" class="qr"> </a>
+                <a href="https://issuu.com/sm980434/docs/portfolio-salam.tamimi_2" target="_blank"><img src="/images/My architectural portfolio.png" alt="My architectural portfolio"  style="width: 150px; margin-right: 300p;" class="qr"> </a>
                 
             </div> <br> 
 
-            <div class="grey full" id="experience">
+            <div class="grey" id="experience">
                 <h2>Experience</h2>
                 <u class="bold"><span class="red">3&nbsp;</span>&nbsp;Full-stack web development trainee at orange.</u>
                 <p>&nbsp;3rd Cohort at Orange Coding Academy, full-time training for 6 months mockup and wireframe on Miro, HTML and CSS, PHP and DB, React, Laravel, and Wordpress, and one month of internship. also taking on more than three hundred tasks and projects. Moreover, sessions about soft skills and personality and more than this.</p>
             </div>
 
-           <u class="grey three bold"><span class="red">2&nbsp;</span>&nbsp;Directorate of Municipal Affairs & Municipal Engineering (since sep.2022)</u>
-            
-            <u class="grey three2 bold"><span class="red">1&nbsp;</span>&nbsp;Architectural training for 2 months (Zakaria Smadi office)</u>
-            
+            <div id="experience2" class="grey bold">
+           <u><span class="red">2&nbsp;</span>&nbsp;Directorate of Municipal Affairs & Municipal Engineering (since sep.2022)</u>
+            </div>
 
-            <div class="full" id="timeline">
-                <img src="timeline.JPG" alt="Timeline experience" >
+            <div id="experience1" class="grey bold">
+           <u><span class="red">1&nbsp;</span>&nbsp;Architectural training for 2 months (Zakaria Smadi office)</u>
+            </div>
+
+            <div class="timeline" >
+                <img src="/images/timeline.JPG" alt="Timeline experience" >
                 <p class="red1">1</p>
                 <p class="red2">2</p>
                 <p class="red3">3</p>
@@ -64,12 +67,13 @@
             </div>
             
 
-            <div class="grey full" id="skills">
+            <div class="grey" id="skills">
            
                 <h2>Skills</h2>
 
                 <div id="soft">
-                    <h3 class="front1">Soft Skills:</h3>
+                    <h3 class="front1">Soft Skills:</h3> <br> <br>
+                    <p class="click1">click here</p>
                     <ul class="back1">
                         <li>Organizational</li>
                         <li>Team Work</li>
@@ -80,8 +84,9 @@
                     </ul>
                 </div>
 
-                <div style="margin-right: 100px;" id="technical">
+                <div id="technical">
                 <H3 class="front2">Technical Skills:</H3>
+                <p class="click2">click here</p>
                 <ul class="back2">
                     <li>Wireframe & Mockup (Miro)</li>
                     <li>CSS</li>
@@ -94,14 +99,14 @@
 
             </div>
 
-            <div class="center">
-            <h3>Languages:</h3>
-            <img src="languages.JPG" alt="languages">
-            </div> <br> <br>
+             
+            <h2 class="floatleft" >Languages:</h2>
+            <img src="/images/languages.JPG" alt="languages" >
+            <br> <br>
 
-            <div class="grey full" id="certificates">
+            <div class="grey" id="certificates">
                 <h2>Certificates</h2>
-                <ul class="three floatleft">
+                <ul class="floatleft list">
                     <li>post production for Exterior & interior shots (Autodesk & Grand academy)</li>
                     <li>Participating in the international Architecture Competition organized by archdais.com
                     </li>
@@ -111,67 +116,75 @@
                     <li>Lumion 10</li>
                 </ul>
             
-                <a href="https://cdn.me-qr.com/pdf/12696324.pdf" target="_blank" class="three2 floatright"><img src="certificates.png" alt="My certificates"  style="width: 150px; margin-right: 170px;" class="qr"> </a>
+                <a href="https://cdn.me-qr.com/pdf/12696324.pdf" target="_blank" class="floatright"><img src="/images/certificates.png" alt="My certificates"  style="width: 150px; margin-right: 170px;" class="qr2"> </a>
                 
             </div> <br>
 
-                <div class="three floatleft grey" id="Contact me / References">
-                    <h2>Contact me</h2>
+        <div class="card2">
+            <div class="grey" id="Contactme">
+                <h2>Contact me</h2>
+                <a href="https://www.facebook.com/Salam.Tamimi.99?mibextid=LQQJ4d" target="_blank">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"></path> </g></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/salam-m-tamimi-7942041b4" target="_blank">
+
+                <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M44,7H20A13,13,0,0,0,7,20V44A13,13,0,0,0,20,57H44A13,13,0,0,0,57,44V20A13,13,0,0,0,44,7ZM55,44A11,11,0,0,1,44,55H20A11,11,0,0,1,9,44V20A11,11,0,0,1,20,9H44A11,11,0,0,1,55,20Z"></path><path d="M22,25H15a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V26A1,1,0,0,0,22,25ZM21,48H16V27h5Z"></path><path d="M42,25h0a14.18,14.18,0,0,0-7,2.11V26a1,1,0,0,0-1-1H27a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.81A7.66,7.66,0,0,1,38,33c2.81,0,3,2,3,2.44V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.17a8.3,8.3,0,0,0-2.14-6.11A7.93,7.93,0,0,0,42,25Zm6,23H43V35.44C43,33.9,42,31,38,31a10.24,10.24,0,0,0-4.45,1.29,1,1,0,0,0-.55.89V48H28V27h5v2.06a1,1,0,0,0,1.66.75A12.31,12.31,0,0,1,42,27h0a6,6,0,0,1,4.42,1.47A6.41,6.41,0,0,1,48,33.17Z"></path><path d="M18.5,14A4.5,4.5,0,1,0,23,18.5,4.5,4.5,0,0,0,18.5,14Zm0,7A2.5,2.5,0,1,1,21,18.5,2.5,2.5,0,0,1,18.5,21Z"></path></g></svg>                    
+                </a>
+                <a href="https://github.com/Salam-Tamimi">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.35 18.5375 6.15 17.975C6.0375 17.6875 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.475C5.65 10.3875 6.0375 9.4875 6.675 8.7875C6.575 8.5375 6.225 7.5125 6.775 6.1375C6.775 6.1375 7.6125 5.875 9.525 7.1625C10.325 6.9375 11.175 6.825 12.025 6.825C12.875 6.825 13.725 6.9375 14.525 7.1625C16.4375 5.8625 17.275 6.1375 17.275 6.1375C17.825 7.5125 17.475 8.5375 17.375 8.7875C18.0125 9.4875 18.4 10.375 18.4 11.475C18.4 15.3125 16.0625 16.1625 13.8375 16.4125C14.2 16.725 14.5125 17.325 14.5125 18.2625C14.5125 19.6 14.5 20.675 14.5 21.0125C14.5 21.275 14.6875 21.5875 15.1875 21.4875C17.1727 20.8173 18.8977 19.5415 20.1198 17.8395C21.3419 16.1376 21.9995 14.0953 22 12C22 6.475 17.525 2 12 2Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg> 
+                </a>                   
+                <a href="mailto:salam.tamimi99@gmail.com">
+                <svg fill="#000000" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>                    
+                <br> <br> <br> <br> <br></a> 
+            </div>
+        
+
+            <div class="grey" id="References">
+                <h2>References</h2>
+                <p class="bold">Hala Hamdan</p>
+                <p>Lead Trainer at Orange Coding Academy</p>
+                <a href="mailto:gt.halla.hamdan@orange.com">                    <svg fill="#000000" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>                    
+                </a>
+                <a href="https://www.linkedin.com/in/hala-hamdan-927941163/">                         <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M44,7H20A13,13,0,0,0,7,20V44A13,13,0,0,0,20,57H44A13,13,0,0,0,57,44V20A13,13,0,0,0,44,7ZM55,44A11,11,0,0,1,44,55H20A11,11,0,0,1,9,44V20A11,11,0,0,1,20,9H44A11,11,0,0,1,55,20Z"></path><path d="M22,25H15a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V26A1,1,0,0,0,22,25ZM21,48H16V27h5Z"></path><path d="M42,25h0a14.18,14.18,0,0,0-7,2.11V26a1,1,0,0,0-1-1H27a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.81A7.66,7.66,0,0,1,38,33c2.81,0,3,2,3,2.44V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.17a8.3,8.3,0,0,0-2.14-6.11A7.93,7.93,0,0,0,42,25Zm6,23H43V35.44C43,33.9,42,31,38,31a10.24,10.24,0,0,0-4.45,1.29,1,1,0,0,0-.55.89V48H28V27h5v2.06a1,1,0,0,0,1.66.75A12.31,12.31,0,0,1,42,27h0a6,6,0,0,1,4.42,1.47A6.41,6.41,0,0,1,48,33.17Z"></path><path d="M18.5,14A4.5,4.5,0,1,0,23,18.5,4.5,4.5,0,0,0,18.5,14Zm0,7A2.5,2.5,0,1,1,21,18.5,2.5,2.5,0,0,1,18.5,21Z"></path></g></svg></a>
+            
+            </div>
+        </div> 
+       
+
+        <hr>
+        <footer > 
+            <div class="row">
+                <div class="column">
+                <img src="/images/logo.png" alt="logo" class="logo"  >
+                <p class="copyrights">&copy; All rights reserved | Salam Tamimi</p>
+                </div>
+
+                <div class="column">
+                <ul id="sectionsfooter">
+                <li><a href="#education" class="link">Education &nbsp; &nbsp; </a></li>
+                <li><a href="#experience" class="link">Experience &nbsp; &nbsp;</a></li>
+                <li><a href="#skills" class="link">Skills &nbsp; &nbsp;</a></li>
+                <li><a href="#certificates"class="link" >Certificates &nbsp; &nbsp;</a></li>
+                <li><a href="#Contact me / References"class="link" >Contact me / References &nbsp; &nbsp;</a></li>
+                </ul>
+                </div>
+                
+
+                <div class="column" >
+                    <p style="font-weight: bold;">Contact me</p>
                     <a href="https://www.facebook.com/Salam.Tamimi.99?mibextid=LQQJ4d" target="_blank">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"></path> </g></svg>
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="iconsfooter"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"></path> </g></svg>
                     </a>
                     <a href="https://www.linkedin.com/in/salam-m-tamimi-7942041b4" target="_blank">
-    
-                        <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M44,7H20A13,13,0,0,0,7,20V44A13,13,0,0,0,20,57H44A13,13,0,0,0,57,44V20A13,13,0,0,0,44,7ZM55,44A11,11,0,0,1,44,55H20A11,11,0,0,1,9,44V20A11,11,0,0,1,20,9H44A11,11,0,0,1,55,20Z"></path><path d="M22,25H15a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V26A1,1,0,0,0,22,25ZM21,48H16V27h5Z"></path><path d="M42,25h0a14.18,14.18,0,0,0-7,2.11V26a1,1,0,0,0-1-1H27a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.81A7.66,7.66,0,0,1,38,33c2.81,0,3,2,3,2.44V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.17a8.3,8.3,0,0,0-2.14-6.11A7.93,7.93,0,0,0,42,25Zm6,23H43V35.44C43,33.9,42,31,38,31a10.24,10.24,0,0,0-4.45,1.29,1,1,0,0,0-.55.89V48H28V27h5v2.06a1,1,0,0,0,1.66.75A12.31,12.31,0,0,1,42,27h0a6,6,0,0,1,4.42,1.47A6.41,6.41,0,0,1,48,33.17Z"></path><path d="M18.5,14A4.5,4.5,0,1,0,23,18.5,4.5,4.5,0,0,0,18.5,14Zm0,7A2.5,2.5,0,1,1,21,18.5,2.5,2.5,0,0,1,18.5,21Z"></path></g></svg>                    </a>
+                    <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="iconsfooter"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M44,7H20A13,13,0,0,0,7,20V44A13,13,0,0,0,20,57H44A13,13,0,0,0,57,44V20A13,13,0,0,0,44,7ZM55,44A11,11,0,0,1,44,55H20A11,11,0,0,1,9,44V20A11,11,0,0,1,20,9H44A11,11,0,0,1,55,20Z"></path><path d="M22,25H15a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V26A1,1,0,0,0,22,25ZM21,48H16V27h5Z"></path><path d="M42,25h0a14.18,14.18,0,0,0-7,2.11V26a1,1,0,0,0-1-1H27a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.81A7.66,7.66,0,0,1,38,33c2.81,0,3,2,3,2.44V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.17a8.3,8.3,0,0,0-2.14-6.11A7.93,7.93,0,0,0,42,25Zm6,23H43V35.44C43,33.9,42,31,38,31a10.24,10.24,0,0,0-4.45,1.29,1,1,0,0,0-.55.89V48H28V27h5v2.06a1,1,0,0,0,1.66.75A12.31,12.31,0,0,1,42,27h0a6,6,0,0,1,4.42,1.47A6.41,6.41,0,0,1,48,33.17Z"></path><path d="M18.5,14A4.5,4.5,0,1,0,23,18.5,4.5,4.5,0,0,0,18.5,14Zm0,7A2.5,2.5,0,1,1,21,18.5,2.5,2.5,0,0,1,18.5,21Z"></path></g></svg>                    </a>
                     <a href="https://github.com/Salam-Tamimi">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.35 18.5375 6.15 17.975C6.0375 17.6875 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.475C5.65 10.3875 6.0375 9.4875 6.675 8.7875C6.575 8.5375 6.225 7.5125 6.775 6.1375C6.775 6.1375 7.6125 5.875 9.525 7.1625C10.325 6.9375 11.175 6.825 12.025 6.825C12.875 6.825 13.725 6.9375 14.525 7.1625C16.4375 5.8625 17.275 6.1375 17.275 6.1375C17.825 7.5125 17.475 8.5375 17.375 8.7875C18.0125 9.4875 18.4 10.375 18.4 11.475C18.4 15.3125 16.0625 16.1625 13.8375 16.4125C14.2 16.725 14.5125 17.325 14.5125 18.2625C14.5125 19.6 14.5 20.675 14.5 21.0125C14.5 21.275 14.6875 21.5875 15.1875 21.4875C17.1727 20.8173 18.8977 19.5415 20.1198 17.8395C21.3419 16.1376 21.9995 14.0953 22 12C22 6.475 17.525 2 12 2Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg>                    
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="iconsfooter"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.35 18.5375 6.15 17.975C6.0375 17.6875 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.475C5.65 10.3875 6.0375 9.4875 6.675 8.7875C6.575 8.5375 6.225 7.5125 6.775 6.1375C6.775 6.1375 7.6125 5.875 9.525 7.1625C10.325 6.9375 11.175 6.825 12.025 6.825C12.875 6.825 13.725 6.9375 14.525 7.1625C16.4375 5.8625 17.275 6.1375 17.275 6.1375C17.825 7.5125 17.475 8.5375 17.375 8.7875C18.0125 9.4875 18.4 10.375 18.4 11.475C18.4 15.3125 16.0625 16.1625 13.8375 16.4125C14.2 16.725 14.5125 17.325 14.5125 18.2625C14.5125 19.6 14.5 20.675 14.5 21.0125C14.5 21.275 14.6875 21.5875 15.1875 21.4875C17.1727 20.8173 18.8977 19.5415 20.1198 17.8395C21.3419 16.1376 21.9995 14.0953 22 12C22 6.475 17.525 2 12 2Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg>                    
                     <a href="mailto:salam.tamimi99@gmail.com">
-                    <svg fill="#000000" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>                    
+                    <svg fill="#000000" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg" class="iconsfooter"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>                    
                     </a>
-                </div>
-            
-
-                <div class="three2 floatright grey" id="Contact me / References">
-                    <h2>References</h2>
-                    <p class="bold">Hala Hamdan</p>
-                    <p>Lead Trainer at Orange Coding Academy</p>
-                    <a href="mailto:gt.halla.hamdan@orange.com">                    <svg fill="#000000" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>                    
-                    </a>
-                    <a href="https://www.linkedin.com/in/hala-hamdan-927941163/">                         <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M44,7H20A13,13,0,0,0,7,20V44A13,13,0,0,0,20,57H44A13,13,0,0,0,57,44V20A13,13,0,0,0,44,7ZM55,44A11,11,0,0,1,44,55H20A11,11,0,0,1,9,44V20A11,11,0,0,1,20,9H44A11,11,0,0,1,55,20Z"></path><path d="M22,25H15a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V26A1,1,0,0,0,22,25ZM21,48H16V27h5Z"></path><path d="M42,25h0a14.18,14.18,0,0,0-7,2.11V26a1,1,0,0,0-1-1H27a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.81A7.66,7.66,0,0,1,38,33c2.81,0,3,2,3,2.44V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.17a8.3,8.3,0,0,0-2.14-6.11A7.93,7.93,0,0,0,42,25Zm6,23H43V35.44C43,33.9,42,31,38,31a10.24,10.24,0,0,0-4.45,1.29,1,1,0,0,0-.55.89V48H28V27h5v2.06a1,1,0,0,0,1.66.75A12.31,12.31,0,0,1,42,27h0a6,6,0,0,1,4.42,1.47A6.41,6.41,0,0,1,48,33.17Z"></path><path d="M18.5,14A4.5,4.5,0,1,0,23,18.5,4.5,4.5,0,0,0,18.5,14Zm0,7A2.5,2.5,0,1,1,21,18.5,2.5,2.5,0,0,1,18.5,21Z"></path></g></svg></a>
-                
                 </div>
             
         </div>
-
-        <hr>
-        <footer> 
-                <img src="logo.png" alt="logo" style="width: 200px;" class="floatleft" >
-               
-                
-                <a href="#education" class="link">Education &nbsp; &nbsp; </a>
-                <a href="#experience" class="link">Experience &nbsp; &nbsp;</a>
-                <a href="#skills" class="link">Skills &nbsp; &nbsp;</a>
-                <a href="#certificates"class="link" >Certificates &nbsp; &nbsp;</a>
-                <a href="#Contact me / References"class="link" >Contact me / References &nbsp; &nbsp;</a>
-                
-
-                <div class="floatright">
-                    <h3>Contact me</h3>
-                    <a href="https://www.facebook.com/Salam.Tamimi.99?mibextid=LQQJ4d" target="_blank">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"></path> </g></svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/salam-m-tamimi-7942041b4" target="_blank">
-    
-                        <svg fill="#000000" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title></title><path d="M44,7H20A13,13,0,0,0,7,20V44A13,13,0,0,0,20,57H44A13,13,0,0,0,57,44V20A13,13,0,0,0,44,7ZM55,44A11,11,0,0,1,44,55H20A11,11,0,0,1,9,44V20A11,11,0,0,1,20,9H44A11,11,0,0,1,55,20Z"></path><path d="M22,25H15a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V26A1,1,0,0,0,22,25ZM21,48H16V27h5Z"></path><path d="M42,25h0a14.18,14.18,0,0,0-7,2.11V26a1,1,0,0,0-1-1H27a1,1,0,0,0-1,1V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.81A7.66,7.66,0,0,1,38,33c2.81,0,3,2,3,2.44V49a1,1,0,0,0,1,1h7a1,1,0,0,0,1-1V33.17a8.3,8.3,0,0,0-2.14-6.11A7.93,7.93,0,0,0,42,25Zm6,23H43V35.44C43,33.9,42,31,38,31a10.24,10.24,0,0,0-4.45,1.29,1,1,0,0,0-.55.89V48H28V27h5v2.06a1,1,0,0,0,1.66.75A12.31,12.31,0,0,1,42,27h0a6,6,0,0,1,4.42,1.47A6.41,6.41,0,0,1,48,33.17Z"></path><path d="M18.5,14A4.5,4.5,0,1,0,23,18.5,4.5,4.5,0,0,0,18.5,14Zm0,7A2.5,2.5,0,1,1,21,18.5,2.5,2.5,0,0,1,18.5,21Z"></path></g></svg>                    </a>
-                    <a href="https://github.com/Salam-Tamimi">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.475 2 2 6.475 2 12C2 16.425 4.8625 20.1625 8.8375 21.4875C9.3375 21.575 9.525 21.275 9.525 21.0125C9.525 20.775 9.5125 19.9875 9.5125 19.15C7 19.6125 6.35 18.5375 6.15 17.975C6.0375 17.6875 5.55 16.8 5.125 16.5625C4.775 16.375 4.275 15.9125 5.1125 15.9C5.9 15.8875 6.4625 16.625 6.65 16.925C7.55 18.4375 8.9875 18.0125 9.5625 17.75C9.65 17.1 9.9125 16.6625 10.2 16.4125C7.975 16.1625 5.65 15.3 5.65 11.475C5.65 10.3875 6.0375 9.4875 6.675 8.7875C6.575 8.5375 6.225 7.5125 6.775 6.1375C6.775 6.1375 7.6125 5.875 9.525 7.1625C10.325 6.9375 11.175 6.825 12.025 6.825C12.875 6.825 13.725 6.9375 14.525 7.1625C16.4375 5.8625 17.275 6.1375 17.275 6.1375C17.825 7.5125 17.475 8.5375 17.375 8.7875C18.0125 9.4875 18.4 10.375 18.4 11.475C18.4 15.3125 16.0625 16.1625 13.8375 16.4125C14.2 16.725 14.5125 17.325 14.5125 18.2625C14.5125 19.6 14.5 20.675 14.5 21.0125C14.5 21.275 14.6875 21.5875 15.1875 21.4875C17.1727 20.8173 18.8977 19.5415 20.1198 17.8395C21.3419 16.1376 21.9995 14.0953 22 12C22 6.475 17.525 2 12 2Z" stroke="#000000" stroke-linejoin="round"></path> </g></svg>                    
-                    <a href="mailto:salam.tamimi99@gmail.com">
-                    <svg fill="#000000" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z" fill-rule="evenodd"></path> </g></svg>                    
-                    </a>
-                </div>
-            
-            <br> <br>
-            <p class="copyrights">&copy; All rights reserved | Salam Tamimi</p>
         </footer>
 
 
